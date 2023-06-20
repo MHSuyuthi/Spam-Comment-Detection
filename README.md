@@ -1,1 +1,3 @@
 # Spam-Comment-Detection
+
+Projek ini bertujuan untuk membuat model yang mampu mendeteksi apakah komentar yang ada merupakan spam atau buka. Pemodelan yang kita pilih adalah pemodelan yang menggunakan RMSprop dan menggunakan Bidirectional layer. Walaupun nilai antara loss dan val_loss jauh akan tetapi nilai akurasi memiliki nilai yang tinggi pada saat training. Pada data tes, model ini memiliki nilai akurasi sebesar 85%, nilai recall pada kelas not spam sebesar 84%, dan nilai precision pada kelas spam sebesar 84%.
